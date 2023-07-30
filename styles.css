@@ -4,8 +4,8 @@ body {
     flex-direction: column;
     align-items: stretch;
     margin: 0;
-    background-color: #172573;
-    color: #F080F2;
+    background-color: #000000;
+    color: #000000;
     font-family: 'Barlow Condensed', sans-serif;
 }
 
@@ -27,7 +27,7 @@ nav ul {
 nav li a {
     padding: 10px 20px;
     text-decoration: none;
-    color: #9807f9;
+    color: #E007CA;
     font-size: 3vmin;
   }
 
@@ -41,14 +41,16 @@ footer {
     align-items: center;
     justify-content: center;
     margin-top: 3vmin;
+    color: #E007CA;
 }
 
 footer a {
-    color: #7b76f6;
+    color: #E007CA;
 }
 
 h1 {
     font-size: 6vmin;
+    color: #FFC20A;
 }
 
 h2 {
@@ -69,11 +71,11 @@ p {
 }
 
 hr {
-    border: 1px solid #ab66d9;
+    border: 1px solid #000000;
 }
 
 #about {
-    background-color:#5956b8;
+    background-color:#de0d09;
     padding: 10vmin;
     margin-top: 3vmin;
 }
@@ -90,7 +92,7 @@ hr {
 }
 
 #projects {
-    background-color: #474591;
+    background-color: #E6800D;
     padding: 5vmin 10vmin;
     margin-top: 3vmin;
 }
@@ -102,7 +104,7 @@ hr {
 }
 
 #contact {
-    background-color: #292852;
+    background-color: #FFC20A;
     padding: 3vmin;
     margin-top: 3vmin;
     display: flex;
@@ -128,7 +130,7 @@ hr {
 
 #contact li a {
     text-decoration: none;
-    color: #F080F2;
+    color: #E007CA;
 }
 
 #contact img {
