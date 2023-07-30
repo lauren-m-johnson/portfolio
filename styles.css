@@ -13,7 +13,6 @@ nav {
     padding: 1vmin 0;
     margin: 0;
     width: 100%;
-    background-color: #7b76f6;
 }
 
 nav ul {
@@ -28,7 +27,7 @@ nav ul {
 nav li a {
     padding: 10px 20px;
     text-decoration: none;
-    color: #523168;
+    color: #9807f9;
     font-size: 3vmin;
   }
 
@@ -69,8 +68,12 @@ p {
     font-size: 3vmin;
 }
 
+hr {
+    border: 1px solid #ab66d9;
+}
+
 #about {
-    background-color: #5956b8;
+    background-color:#5956b8;
     padding: 10vmin;
     margin-top: 3vmin;
 }
@@ -88,7 +91,7 @@ p {
 
 #projects {
     background-color: #474591;
-    padding: 10vmin;
+    padding: 5vmin 10vmin;
     margin-top: 3vmin;
 }
 
