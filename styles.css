@@ -1,0 +1,102 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0;
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+  }
+
+nav li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+  }
+
+  header {
+    padding: 2vmin;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vmin;
+}
+
+h4 {
+    font-style: italic;
+  }
+  
+#about {
+    background-color: lightgray;
+    padding: 3vmin;
+    margin-top: 3vmin;
+}
+
+#about ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#about li img {
+    width: 5vmin;
+}
+
+#projects {
+    background-color: lightgray;
+    padding: 3vmin;
+    margin-top: 3vmin;
+}
+
+#projects img {
+    width: 50vmin;
+}
+
+#contact {
+    background-color: lightgray;
+    padding: 3vmin;
+    margin-top: 3vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+    list-style: none;
+    margin-top: 0;
+}
+
+#contact li {
+    margin: 1vmin 0;
+    padding: 0;
+}
+
+#contact li a {
+    text-decoration: none;
+    color: black;
+}
+
+#contact img {
+    width: 3vmin;
+}
