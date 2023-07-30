@@ -4,11 +4,16 @@ body {
     flex-direction: column;
     align-items: stretch;
     margin: 0;
+    background-color: #172573;
+    color: #F080F2;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 nav {
-    padding: 0;
+    padding: 1vmin 0;
     margin: 0;
+    width: 100%;
+    background-color: #7b76f6;
 }
 
 nav ul {
@@ -16,12 +21,15 @@ nav ul {
     flex-direction: row;
     justify-content: flex-end;
     list-style: none;
+    padding: 0;
+    margin: 0;
   }
 
 nav li a {
     padding: 10px 20px;
     text-decoration: none;
-    color: black;
+    color: #523168;
+    font-size: 3vmin;
   }
 
   header {
@@ -36,13 +44,34 @@ footer {
     margin-top: 3vmin;
 }
 
+footer a {
+    color: #7b76f6;
+}
+
+h1 {
+    font-size: 6vmin;
+}
+
+h2 {
+    font-size: 4vmin;
+}
+
+h3 {
+    font-size: 3vmin;
+}
+
 h4 {
     font-style: italic;
+    font-size: 2.5vmin;
   }
-  
+
+p {
+    font-size: 3vmin;
+}
+
 #about {
-    background-color: lightgray;
-    padding: 3vmin;
+    background-color: #5956b8;
+    padding: 10vmin;
     margin-top: 3vmin;
 }
 
@@ -58,17 +87,19 @@ h4 {
 }
 
 #projects {
-    background-color: lightgray;
-    padding: 3vmin;
+    background-color: #474591;
+    padding: 10vmin;
     margin-top: 3vmin;
 }
 
 #projects img {
     width: 50vmin;
+    opacity: 1;
+    transition: opacity 0.3s ease;
 }
 
 #contact {
-    background-color: lightgray;
+    background-color: #292852;
     padding: 3vmin;
     margin-top: 3vmin;
     display: flex;
@@ -94,9 +125,21 @@ h4 {
 
 #contact li a {
     text-decoration: none;
-    color: black;
+    color: #F080F2;
 }
 
 #contact img {
     width: 3vmin;
+}
+
+a:hover {
+    color: #12CAB5;
+}
+
+#contact li a:hover {
+    color: #12CAB5;
+}
+
+#projects img:hover {
+    opacity: 0.5;
 }
