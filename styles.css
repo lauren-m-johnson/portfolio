@@ -4,16 +4,16 @@ body {
     flex-direction: column;
     align-items: stretch;
     margin: 0;
-    background-color: #000000;
-    color: #000000;
+    background-color: #0D0D0D;
+    color: #0D0D0D;
     font-family: 'Barlow Condensed', sans-serif;
-}
+} 
 
-nav {
+ nav {
     padding: 1vmin 0;
     margin: 0;
     width: 100%;
-}
+} 
 
 nav ul {
     display: flex;
@@ -27,7 +27,7 @@ nav ul {
 nav li a {
     padding: 10px 20px;
     text-decoration: none;
-    color: #F2EA7E;
+    color: #F2EFC2;
     font-size: 3vmin;
   }
 
@@ -41,20 +41,21 @@ footer {
     align-items: center;
     justify-content: center;
     margin-top: 3vmin;
-    color: #F2EA7E;
+    color: #F2EFC2;
 }
 
 footer a {
-    color: #EEF26D;
+    color: #F2EFC2;
 }
 
 h1 {
     font-size: 6vmin;
-    color: #FFC20A;
+    color: #F2F0D5;
 }
 
 h2 {
     font-size: 4vmin;
+    color: #F2EFC2;
 }
 
 h3 {
@@ -64,6 +65,7 @@ h3 {
 h4 {
     font-style: italic;
     font-size: 2.5vmin;
+    color: #b6b492;
   }
 
 p {
@@ -71,11 +73,11 @@ p {
 }
 
 hr {
-    border: 1px solid #000000;
+    border: 1px solid #0D0D0D;
 }
 
 #about {
-    background-color:#A3A64B;
+    background-image: linear-gradient(#595846, #A6A486);
     padding: 10vmin;
     margin-top: 3vmin;
 }
@@ -92,26 +94,44 @@ hr {
 }
 
 #projects {
-    background-color: #A3A64B;
+    background-image: linear-gradient(#A6A486, #595846);
     padding: 5vmin 10vmin;
     margin-top: 3vmin;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-areas: 
+    "header header"
+    "project1 project2"
+    "project3 project4";
+}
+
+#project1 {
+    grid-area: project1;
+}
+
+#project2 {
+    grid-area: project2;
+}
+
+#project3 {
+    grid-area: project3;
 }
 
 #projects img {
     width: 50vmin;
     opacity: 1;
     transition: opacity 0.3s ease;
-}
+} 
 
 #contact {
-    background-color: #A3A64B;
+    background-image: linear-gradient(#595846, #A6A486);
     padding: 3vmin;
     margin-top: 3vmin;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} 
 
 #contact ul {
     display: flex;
@@ -138,12 +158,12 @@ hr {
 }
 
 a:hover {
-    color: #585928;
+    color: #595846;
 }
 
 #contact li a:hover {
-    color: #585928;
-}
+    color: #595846;
+} 
 
 #projects img:hover {
     opacity: 0.5;
