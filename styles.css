@@ -168,3 +168,14 @@ a:hover {
 #projects img:hover {
     opacity: 0.5;
 }
+
+@media only screen
+    and (min-device-width: 23.44em) 
+    and (max-device-width: 50.75em) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait) {
+        #projects {
+            display: flex;
+            flex-direction: column;
+    }
+}
