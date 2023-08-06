@@ -27,7 +27,7 @@ nav ul {
 nav li a {
     padding: 10px 20px;
     text-decoration: none;
-    color: #E007CA;
+    color: #F2EA7E;
     font-size: 3vmin;
   }
 
@@ -41,11 +41,11 @@ footer {
     align-items: center;
     justify-content: center;
     margin-top: 3vmin;
-    color: #E007CA;
+    color: #F2EA7E;
 }
 
 footer a {
-    color: #E007CA;
+    color: #EEF26D;
 }
 
 h1 {
@@ -75,7 +75,7 @@ hr {
 }
 
 #about {
-    background-color:#de0d09;
+    background-color:#A3A64B;
     padding: 10vmin;
     margin-top: 3vmin;
 }
@@ -92,7 +92,7 @@ hr {
 }
 
 #projects {
-    background-color: #E6800D;
+    background-color: #A3A64B;
     padding: 5vmin 10vmin;
     margin-top: 3vmin;
 }
@@ -104,7 +104,7 @@ hr {
 }
 
 #contact {
-    background-color: #FFC20A;
+    background-color: #A3A64B;
     padding: 3vmin;
     margin-top: 3vmin;
     display: flex;
@@ -130,7 +130,7 @@ hr {
 
 #contact li a {
     text-decoration: none;
-    color: #E007CA;
+    color: #EEF26D;
 }
 
 #contact img {
@@ -138,11 +138,11 @@ hr {
 }
 
 a:hover {
-    color: #12CAB5;
+    color: #585928;
 }
 
 #contact li a:hover {
-    color: #12CAB5;
+    color: #585928;
 }
 
 #projects img:hover {
