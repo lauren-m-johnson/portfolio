@@ -20,7 +20,8 @@
 
 - :zap: In my free time, I play video games, draw, paint and garden.
 
-- :mailbox: How to reach me:  [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lauren-marie-johnson/)
+- :mailbox: How to reach me:
+- [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lauren-marie-johnson/)
 
 ✨[Click to View my Portfolio Website](https://lauren-m-johnson.github.io/portfolio/)✨
 
