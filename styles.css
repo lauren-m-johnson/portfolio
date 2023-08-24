@@ -20,7 +20,7 @@ body {
 nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -78,11 +78,16 @@ hr {
     border-radius: 100%;
     border: solid #401910 5px;
     height: 25vmin;
-    box-shadow: 1vmin 1vmin 1vmin#0D0D0D;
 }
 
 #logo {
     height: 30vmin;
+}
+
+#logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }
 
 #about {
