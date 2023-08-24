@@ -1,13 +1,15 @@
+body, h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    margin: 0;
-    background-color: #0D0D0D;
-    color: #0D0D0D;
+    background-color: #FFFCF7;
+    color: #FAF0DF;
     font-family: 'Barlow Condensed', sans-serif;
-} 
+    overflow-x: hidden;
+}
 
  nav {
     padding: 1vmin 0;
@@ -27,7 +29,7 @@ nav ul {
 nav li a {
     padding: 10px 20px;
     text-decoration: none;
-    color: #F2EFC2;
+    color: #F2B950;
     font-size: 3vmin;
   }
 
@@ -40,32 +42,28 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 3vmin;
-    color: #F2EFC2;
+    margin: 3vmin;
+    color: #401910;
 }
 
 footer a {
-    color: #F2EFC2;
-}
-
-h1 {
-    font-size: 6vmin;
-    color: #F2F0D5;
+    color: #401910;
 }
 
 h2 {
     font-size: 4vmin;
-    color: #F2EFC2;
+    color: #F2B950;
 }
 
 h3 {
     font-size: 3vmin;
+    color: #F2B950;
 }
 
 h4 {
     font-style: italic;
     font-size: 2.5vmin;
-    color: #b6b492;
+    color: #FAF0DF;
   }
 
 p {
@@ -76,8 +74,19 @@ hr {
     border: 1px solid #0D0D0D;
 }
 
+#profile-img {
+    border-radius: 100%;
+    border: solid #401910 5px;
+    height: 25vmin;
+    box-shadow: 1vmin 1vmin 1vmin#0D0D0D;
+}
+
+#logo {
+    height: 30vmin;
+}
+
 #about {
-    background-image: linear-gradient(#595846, #A6A486);
+    background-image: linear-gradient(#3F733D, #2e532c);
     padding: 10vmin;
     margin-top: 3vmin;
 }
@@ -94,15 +103,26 @@ hr {
 }
 
 #projects {
-    background-image: linear-gradient(#A6A486, #595846);
-    padding: 5vmin 10vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#project-container {
+    background-image: linear-gradient(#3F733D, #2e532c);
+    padding: 10vmin;
+    width: 100%;
     margin-top: 3vmin;
     display: grid;
     grid-gap: 15px;
-    grid-template-areas: 
-    "header header"
-    "project1 project2"
-    "project3 project4";
+    grid-template-areas:
+        "header header"
+        "project1 project2"
+        "project3 project4";
+    gap: 5vmin;
+    justify-content: center;
+    align-content: center;
 }
 
 #project1 {
@@ -117,16 +137,39 @@ hr {
     grid-area: project3;
 }
 
+#project4 {
+    grid-area: project4;
+}
+
+#project1,
+#project2,
+#project3,
+#project4 {
+    width: 75vmin;
+    background-color: #401910;
+    padding: 5vmin;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2vmin 2vmin 2vmin#0D0D0D;
+}
+
 #projects img {
     width: 50vmin;
+    height: 40vmin;
     opacity: 1;
+    border-radius: 10px;
     transition: opacity 0.3s ease;
+    box-shadow: 2vmin 2vmin 2vmin#0D0D0D;
 } 
 
 #contact {
-    background-image: linear-gradient(#595846, #A6A486);
+    background-image: linear-gradient(#3F733D, #2e532c);
     padding: 3vmin;
     margin-top: 3vmin;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -150,32 +193,45 @@ hr {
 
 #contact li a {
     text-decoration: none;
-    color: #EEF26D;
+    color: #F2EFC2;
 }
 
 #contact img {
     width: 3vmin;
 }
 
+.image-link {
+    color:#FAF0DF;
+    text-decoration: none;
+    background-color:#F2B950;
+    padding: 5px;
+    border-radius: 10px;
+}
+
 a:hover {
-    color: #595846;
+    color: #3F733D;
 }
 
 #contact li a:hover {
-    color: #595846;
+    color: #F2B950;
 } 
 
 #projects img:hover {
     opacity: 0.5;
 }
 
-@media only screen
-    and (min-device-width: 23.44em) 
-    and (max-device-width: 50.75em) 
-    and (-webkit-min-device-pixel-ratio: 3)
-    and (orientation: portrait) {
-        #projects {
-            display: flex;
-            flex-direction: column;
+.image-link:hover {
+    background-color: rgb(145, 7, 7);
+    color: #FAF0DF;
+}
+
+@media only screen and (max-width: 767px) {
+    #projects {
+        grid-template-areas:
+            "header header"
+            "project1 project1"
+            "project2 project2"
+            "project3 project3"
+            "project4 project4";
     }
 }
