@@ -4,8 +4,8 @@ body {
 
 body {
     height: 100vh;
-    background-color: #FFF4e1;
-    color: #FFF4e1;
+    background-color: #ffffff;
+    color: #ffffff;
     font-family: 'Barlow Condensed', sans-serif;
     overflow-x: hidden;
 }
@@ -60,9 +60,8 @@ h3 {
 }
 
 h4 {
-    font-style: italic;
     font-size: 2.5vmin;
-    color: #FFF4e1;
+    color: #FFFFFF;
 }
 
 p {
@@ -183,7 +182,7 @@ hr {
 
 #contact li a {
     text-decoration: none;
-    color: #F2EFC2;
+    color: #FFFFFF;
 }
 
 #contact img {
