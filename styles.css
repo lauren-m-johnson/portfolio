@@ -4,8 +4,8 @@ body {
 
 body {
     height: 100vh;
-    background-color: #ffffff;
-    color: #ffffff;
+    background-color: #ffe9c4;
+    color: #FDF0DF;
     font-family: 'Barlow Condensed', sans-serif;
     overflow-x: hidden;
 }
@@ -61,7 +61,7 @@ h3 {
 
 h4 {
     font-size: 2.5vmin;
-    color: #FFFFFF;
+    color: #FDF0DF;
 }
 
 p {
@@ -73,7 +73,7 @@ hr {
 }
 
 #about, #projects, #contact {
-    background-image: linear-gradient(#3F733D, #2e532c);
+    background-image: linear-gradient(#2a5229, #264A25);
     border-radius: 10px;
 }
 
@@ -182,7 +182,7 @@ hr {
 
 #contact li a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #FDF0DF;
 }
 
 #contact img {
