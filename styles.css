@@ -28,7 +28,7 @@ nav ul {
 nav li a {
     padding: 10px 20px;
     text-decoration: none;
-    color: #F2B950;
+    color: #efa723;
     font-size: 3vmin;
 }
 
@@ -198,7 +198,8 @@ hr {
 }
 
 a:hover {
-    color: #3F733D;
+    font-weight: bold;
+    font-size: 3.5vmin;
 }
 
 #contact li a:hover {
