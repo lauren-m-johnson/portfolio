@@ -73,7 +73,7 @@ hr {
 }
 
 #about, #projects, #contact {
-    background-image: linear-gradient(#2a5229, #264A25);
+    background-color: #264a25c0;
     border-radius: 10px;
 }
 
@@ -136,7 +136,7 @@ hr {
 #project2,
 #project3,
 #project4 {
-    background-color: #401910;
+    background-color: #401910c7;
     padding: 3vmin;
     border-radius: 10px;
     display: flex;
@@ -197,7 +197,7 @@ hr {
     border-radius: 10px;
 }
 
-a:hover {
+nav li a:hover {
     font-weight: bold;
     font-size: 3.5vmin;
 }
