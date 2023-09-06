@@ -4,8 +4,8 @@ body {
 
 body {
     height: 100vh;
-    background-color: #ffe9c4;
-    color: #FDF0DF;
+    background-color: #fff2dc;
+    color: #fdf2f2;
     font-family: 'Barlow Condensed', sans-serif;
     overflow-x: hidden;
 }
@@ -61,7 +61,7 @@ h3 {
 
 h4 {
     font-size: 2.5vmin;
-    color: #FDF0DF;
+    color: #fdf5eb;
 }
 
 p {
