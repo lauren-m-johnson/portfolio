@@ -152,7 +152,7 @@ hr {
     opacity: 1;
     border-radius: 10px;
     transition: opacity 0.3s ease;
-    box-shadow: 2vmin 2vmin 2vmin #0D0D0D;
+
 } 
 
 #button-box {
@@ -200,7 +200,8 @@ hr {
     text-decoration: none;
     background-color:#F2B950;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 2vmin 2vmin 2vmin #0D0D0D;
 }
 
 nav li a:hover {
